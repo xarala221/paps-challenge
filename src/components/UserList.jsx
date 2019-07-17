@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { getUsers } from "../services/userServices";
 
-class List extends Component {
+class UserList extends Component {
   state = {
     users: []
   };
@@ -49,4 +49,4 @@ class List extends Component {
   }
 }
 
-export default List;
+export default UserList;
